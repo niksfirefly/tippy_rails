@@ -13,11 +13,10 @@ Gem::Specification.new do |spec|
   spec.description   = "A Ruby extension of the Tippy JS library"
   spec.homepage      = "https://github.com/ElliottAYoung/tippy_rails.git"
   spec.license       = "MIT"
-
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  
+  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rdoc"
 end
