@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "A Ruby extension of the Tippy JS library"
   spec.description   = "A Ruby extension of the Tippy JS library"
-  spec.homepage      = "https://github.com/ElliottAYoung/tippy_railsg"
+  spec.homepage      = "https://github.com/ElliottAYoung/tippy_rails.git"
   spec.license       = "MIT"
 
   spec.bindir        = "exe"
