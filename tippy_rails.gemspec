@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/ElliottAYoung/tippy_rails.git"
   spec.license       = "MIT"
 
-  spec.files = Dir["*"]
+  spec.files = Dir["{lib,vendor}/**/*" ,"*"]
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
