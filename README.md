@@ -9,6 +9,10 @@ Add this line to your application's Gemfile:
 ```ruby
 gem 'tippy_rails', '~> 1.2'
 ```
+or
+```ruby
+gem 'tippy_rails', '~> 2.5'
+```
 
 And then execute:
 
@@ -48,7 +52,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ElliottAYoung/tippy_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Given this gem is just a wrapper around the [Tippy.js Library](https://atomiks.github.io/tippyjs/), if you would like to use a version that is not supported please follow these steps:
+
+1. Clone Repo
+2. Find condensed, unminified JS and CSS assets for the Tippy version you want ([This tends to be a good resource for exactly that](https://unpkg.com/tippy.js@2.5.2/dist/))
+3. Replace the code in vendor/assets with the relevant code
+4. Bump version and make your PR
 
 ## License
 
