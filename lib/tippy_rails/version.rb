@@ -1,3 +1,3 @@
 module TippyRails
-  VERSION = "1.2.1.3"
+  VERSION = "2.5.2"
 end
